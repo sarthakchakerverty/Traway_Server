@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import googlemaps,math
-gmaps = googlemaps.Client(key = "AIzaSyDcKSAQlMtfWlYHi3qF1Q05ZK0nGDM6uHI")
+gmaps = googlemaps.Client(key = "Your API Key")
 number_of_address = int(raw_input("Enter number of addresses\n"))
 address = [raw_input("Enter the address\n") for x in range(number_of_address)]
 dict_latitude = {}
