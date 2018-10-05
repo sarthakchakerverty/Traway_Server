@@ -7,7 +7,7 @@ app = Flask(__name__)
 def defined_route(location_list):
 	args = []
 	args = str(location_list).split(",")
-	gmaps = googlemaps.Client(key = "AIzaSyC8G35M2v3m5vxqDXjHWXfRRCobcFQv6Yc")
+	gmaps = googlemaps.Client(key = "Your api key.")
 	dict_latitude = {}
 	dict_longitude = {}
 	distance_dict = {}
